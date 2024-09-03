@@ -6,7 +6,7 @@ import pygame
 import edge_tts
 
 # Konfigurasi Gemini API
-os.environ["API_KEY"] = "AIzaSyDdkDzW35qgr3uEK7wDZ1dks1-epOvvcyI"
+os.environ["API_KEY"] = "gemini_api_key"
 genai.configure(api_key=os.environ["API_KEY"])
 model_name = "ogi"
 model_role = "Asisten Virtual Berbasis AI untuk Menjawab Pertanyaan dalam Bahasa Indonesia"
